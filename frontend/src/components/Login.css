@@ -2,12 +2,21 @@ body {
   color: #352310;
 }
 
+.LoginBackGround {
+  min-height: calc(100dvh - var(--navbar-h));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .Logo {
   font-size: 128px;
 }
 
 .Phrase {
   font-size: 40px;
+  margin: 0 auto 16px auto;
 }
 
 @media (max-width: 1024px) {
@@ -22,7 +31,7 @@ body {
 
 @media (max-width: 480px) {
   .Logo {
-    font-size: 48px;
+    font-size: 64px;
   }
 
   .Phrase {
