@@ -9,3 +9,23 @@ body {
 .Phrase {
   font-size: 40px;
 }
+
+@media (max-width: 1024px) {
+  .Logo {
+    font-size: 96px;
+  }
+
+  .Phrase {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Logo {
+    font-size: 48px;
+  }
+
+  .Phrase {
+    font-size: 20px;
+  }
+}
