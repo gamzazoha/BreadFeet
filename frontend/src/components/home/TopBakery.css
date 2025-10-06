@@ -1,0 +1,62 @@
+.TopBakeryList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.TopBakeryTitle {
+  font-size: 36px;
+  font-weight: 700;
+  color: #352310;
+  margin: 0;
+}
+
+.TopBakeryPhrase {
+  text-align: center;
+  font-size: 20px;
+  color: #352310;
+  margin: 0;
+}
+
+.TopBakery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.TopBakeryImage {
+  width: 100%;
+  max-width: 520px;
+  aspect-ratio: 4 / 3;
+}
+
+.TopBakeryImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.TopBakery h4 {
+  margin: 6px 0 2px;
+  font-size: 32px;
+  font-weight: 500;
+  color: #352310;
+  text-align: center;
+}
+
+.TopBakery h5 {
+  margin: 0;
+  font-size: 20px;
+  color: #352310;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .TopBakeryImage {
+    max-width: 100%;
+  }
+}
