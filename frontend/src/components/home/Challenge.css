@@ -1,0 +1,39 @@
+.ChallengeCard {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.ChallengeImage {
+  width: 225px;
+  height: 135px;
+  object-fit: cover;
+}
+
+.ChallengeContent {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.ChallengeName {
+  font-size: 24px;
+  color: #4a3a2e;
+  margin: 0;
+}
+
+.ChallengeButton {
+  width: 165px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f5e6cc;
+  color: #352310;
+  font-weight: 500;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 5px 0;
+}
+
+.ChallengeButton:hover {
+  background-color: #e7dccb;
+}
