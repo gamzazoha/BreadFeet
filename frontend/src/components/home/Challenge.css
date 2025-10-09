@@ -6,7 +6,7 @@
 
 .ChallengeImage {
   width: 225px;
-  height: 135px;
+  aspect-ratio: 4/3;
   object-fit: cover;
 }
 
@@ -36,4 +36,58 @@
 
 .ChallengeButton:hover {
   background-color: #e7dccb;
+}
+
+@media (max-width: 1024px) {
+  .ChallengeImage {
+    width: 200px;
+    height: 120px;
+  }
+
+  .ChallengeName {
+    font-size: 22px;
+  }
+
+  .ChallengeButton {
+    font-size: 20px;
+    width: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ChallengeCard {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .ChallengeImage {
+    width: 100%;
+    height: auto;
+  }
+
+  .ChallengeName {
+    font-size: 20px;
+  }
+
+  .ChallengeButton {
+    width: 100%;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .ChallengeCard {
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .ChallengeName {
+    font-size: 18px;
+  }
+
+  .ChallengeButton {
+    font-size: 16px;
+    padding: 8px 0;
+  }
 }
