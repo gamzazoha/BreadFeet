@@ -1,6 +1,5 @@
 import "./HomeRightLogin.css";
 import MatchRateBar from "../MatchRateBar";
-import HomeRightNoLogin from "./HomeRightNoLogin";
 import { useState } from "react";
 
 const mockData = [
