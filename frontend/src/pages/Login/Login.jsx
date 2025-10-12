@@ -1,7 +1,7 @@
 import "./Login.css";
-import KakaoLoginWide from "../assets/kakao_login_large_wide.png";
-import KakaoLoginNarrow from "../assets/kakao_login_large_narrow.png";
-import KakaoLoginSort from "../assets/kakao_login_medium_narrow.png";
+import KakaoLoginWide from "../../assets/kakao_login_large_wide.png";
+import KakaoLoginNarrow from "../../assets/kakao_login_large_narrow.png";
+import KakaoLoginSort from "../../assets/kakao_login_medium_narrow.png";
 
 const Login = () => {
   return (

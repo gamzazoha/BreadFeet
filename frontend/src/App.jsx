@@ -1,9 +1,10 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Navbar from "./components/Navbar";
-import Home from "./components/home/Home";
-import Map from "./components/map/Map";
-import Login from "./components/Login";
+import Home from "./pages/Home/Home"
+import Map from "./pages/Map/Map";
+import Login from "./pages/Login/Login";
 
 function App() {
   return (
