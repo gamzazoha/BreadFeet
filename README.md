@@ -13,13 +13,12 @@
 - 기타: Axios, React Router
 
 # 파일구성
-src
-
-  |- assets/: 이미지, 아이콘, 전역 스타일 등
-  |- components/: 공용 컴포넌트
-  |- pages/: 페이지 단위 컴포넌트
-  |- ...
-  |- App.jsx
-  |- App.css
-  |- main.jsx
-  |_ index.css
+src  
+  |- assets/: 이미지, 아이콘, 전역 스타일 등  
+  |- components/: 공용 컴포넌트  
+  |- pages/: 페이지 단위 컴포넌트  
+  |- ...  
+  |- App.jsx  
+  |- App.css  
+  |- main.jsx  
+  |_ index.css  
